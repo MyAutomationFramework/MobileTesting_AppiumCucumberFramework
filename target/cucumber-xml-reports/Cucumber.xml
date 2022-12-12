@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.851">
+    <testcase classname="Vertical Scroll Action performance" name="Check vertical scroll action" time="19.655">
+        <system-out>
+            <![CDATA[When I tap on my  appications...............................................passed
+And I click on view link....................................................passed
+And I want scroll till  element.............................................passed
+And After scroll I clciked on link..........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

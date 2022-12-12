@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-18T20:31:03.677Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1731492100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDifinations.Hook.startServer()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check vertical scroll action",
+        "description": "",
+        "id": "vertical-scroll-action-performance;check-vertical-scroll-action",
+        "after": [
+          {
+            "result": {
+              "duration": 66026400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDifinations.Hook.stopServer()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8670434600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I tap on my  appications",
+            "match": {
+              "location": "stepDifinations.VerticalScrollExcution.i_tap_on_my_appications()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1135500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDifinations.Hook.takeScreenShot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2035560600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on view link",
+            "match": {
+              "location": "stepDifinations.VerticalScrollExcution.i_click_on_view_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDifinations.Hook.takeScreenShot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5905675800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want scroll till  element",
+            "match": {
+              "location": "stepDifinations.VerticalScrollExcution.i_want_scroll_till_element()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 726800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDifinations.Hook.takeScreenShot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1088779200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "After scroll I clciked on link",
+            "match": {
+              "location": "stepDifinations.VerticalScrollExcution.after_scroll_i_clciked_on_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1016800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDifinations.Hook.takeScreenShot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Vertical Scroll Action performance",
+    "description": "",
+    "id": "vertical-scroll-action-performance",
+    "keyword": "Feature",
+    "uri": "file:src/test/feature/features/VerticalScroll.feature",
+    "tags": []
+  }
+]
